@@ -12,6 +12,7 @@ const Navbar = () => {
           <img src={images.logo} alt="" />
 
         </div>
+        </div>
 
         <div className="nav__mid">
           <ul>
@@ -38,7 +39,7 @@ const Navbar = () => {
           </div>
 
         </div>
-      </div>
+     
 
 
 
