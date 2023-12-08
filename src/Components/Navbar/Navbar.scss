@@ -3,6 +3,8 @@
     flex-direction: row;
     border: 1px solid red;
     justify-content: space-between;
+    // align-items: center;
+    padding: 20px;
 
     .nav__left{
         display: flex;
@@ -12,7 +14,8 @@
 
         .nav__logo{
             display: flex;
-            width: 400px;
+            width: 200px;
+            margin-left: 30px;
 
             img{
                 width: 100%;
@@ -20,5 +23,25 @@
         }
 
 
+    }
+
+    .nav__mid{
+        display: flex;
+        justify-content: flex-start;
+        // align-items: center;
+        width: 700px;
+        border: 1px solid black;
+
+        ul{
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+
+        li{
+            list-style: none;
+        }
+        }
     }
 }
