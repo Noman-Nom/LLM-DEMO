@@ -1,3 +1,86 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    // font-family: 'Poppins', sans-serif;
+
+}
+
+.upNav{
+
+    display: flex;   
+    flex-direction: row;
+    justify-content: space-between;
+   //  border: 1px solid green;
+    align-items: center;
+    padding:  7px 30px;
+    height: 40px;
+    background-color: var(--white-color);
+    // border: 1px solid rgba(155, 133, 133, 0.174);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+    .upNav__left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    // border: 1px solid blue;
+    width: 650px;
+    padding: 10px;
+    margin-left: 20px;
+    gap: 50px;
+
+    span{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+           font-family: 'Poppins', sans-serif;
+           color: var(--black-color);
+           font-size: 14px;
+        
+           svg{
+
+            font-size: 16px;
+            color: var(--new-color);
+
+
+           }
+        
+    }
+    }
+
+
+    .upNav__right{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        // border: 1px solid rgb(0, 0, 0);
+        padding: 20px 0px;
+        margin-right: 50px;
+        width: 250px;
+    
+        select{
+            padding: 4px 2px;
+           border: 0;
+           color: var(--black-color);
+
+           option{
+            padding: 2px 2px;
+            background-color: #F8F7FF;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+           }
+
+        }
+    }
+}
+
 .nav{
  display: flex;   
  flex-direction: row;
@@ -5,6 +88,7 @@
 //  border: 1px solid green;
  align-items: center;
  padding:  2px 30px;
+ height: 60px;
  background-color: var(--white-color);
  border: 1px solid rgba(155, 133, 133, 0.174);
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -38,15 +122,15 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            gap: 20px;
+            gap: 10px;
             li{
                 list-style: none;
-                margin: 14px;
+                margin: 10px;
                 a{
                     text-decoration: none;
-                    color: var(--black-color);
+                    color: var(--new-color);
                     font-weight: 500;
-                    word-spacing: 5px;
+                    word-spacing: 2px;
                     letter-spacing: 1px;
                     font-size: 14px;
                     cursor: pointer;
@@ -99,7 +183,8 @@
                 cursor: pointer;
 
                 &:hover{
-                    background-color: #F77A18;
+                    background-color:var(--new-color);
+                    color: var(--white-color);
                 }
 
             }
@@ -136,12 +221,14 @@
                 transition: all .3s ease-in-out;
 
                 &:hover{
-                    background-color: #F77A18;
+                    background-color:var(--new-color);
+                    color: var(--white-color);
                 }
             }
           
             .btn-sign{
-                background-color: var(--myfvt-color);
+                background-color: var(--new-color);
+                color:var(--white-color)
                 // border: 1px solid black;
             }
         }
