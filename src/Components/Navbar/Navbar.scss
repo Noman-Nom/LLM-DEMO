@@ -2,10 +2,11 @@
  display: flex;   
  flex-direction: row;
  justify-content: space-between;
- border: 1px solid green;
+//  border: 1px solid green;
  align-items: center;
  padding:  10px 30px;
  background-color: var(--white-color);
+ border: 1px solid rgba(228, 210, 210, 0.174);
 
  .nav__left{
     display: flex;
@@ -42,6 +43,21 @@
                 a{
                     text-decoration: none;
                 }
+                div{
+                
+                    width: 0;
+                    height: 3px;
+                    background-color: transparent;
+                    margin-bottom: 5px;
+                    transition: all .3s ease-in-out;
+                 }
+                 &:hover{
+                     div{
+                         width: 100%;
+                         background-color:#F77A18;
+                     }
+                 }
+     
             }
             
         }
@@ -52,7 +68,7 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        border: 1px solid yellow;
+        // border: 1px solid yellow;
 
         .nav__right-login{
             display: flex;
@@ -62,7 +78,7 @@
                 border: 0;
                 outline: 0;
                 padding: 10px 12px;
-                background-color: aqua;
+                // background-color: aqua;
                 border-radius: 15px ;
                 font-size: 18px ;
                 line-height: 19px;
@@ -79,10 +95,20 @@
                 border: 0;
                 outline: 0;
                 padding: 10px 12px;
-                background-color: aqua;
+                // background-color: aqua;
                 border-radius: 15px ;
                 font-size: 18px ;
                 line-height: 19px;
+                font-size: 16px;
+                font-weight:500;
+            }
+            .btn-req{
+                background-color: var(--white-color);
+                border: 1px solid black;
+            }
+            .btn-sign{
+                background-color: var(--myfvt-color);
+                border: 1px solid black;
             }
         }
 

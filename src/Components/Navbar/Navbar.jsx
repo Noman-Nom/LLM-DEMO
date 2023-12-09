@@ -16,11 +16,21 @@ const Navbar = () => {
 
         <div className="nav__mid">
           <ul>
-            <li><a href="#">Platform</a></li>
-            <li><a href="#">Companey</a></li>
-            <li><a href="#">Modules</a></li>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Resources</a></li>
+            <li><a href="#">Platform</a>
+            <div />
+            </li>
+            <li><a href="#">Companey</a>
+            <div />
+            </li>
+            <li><a href="#">Modules</a>
+            <div />
+            </li>
+            <li><a href="#">Solutions</a>
+            <div />
+            </li>
+            <li><a href="#">Resources</a>
+            <div />
+            </li>
             
 
           </ul>
@@ -30,13 +40,13 @@ const Navbar = () => {
 
         <div className="nav__right">
           <div className="nav__right-login">
-            <button>Login</button>
+            <button className='login'>Login</button>
             <span></span>
           </div>
 
           <div className="nav__right-btns">
-            <button>Request a Demo</button>
-            <button>Sign up</button>
+            <button className='btn-req'>Request a Demo</button>
+            <button className='btn-sign'>Sign up</button>
           </div>
 
         </div>
