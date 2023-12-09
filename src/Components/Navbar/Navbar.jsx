@@ -9,7 +9,7 @@ const Navbar = () => {
 
       <div className="nav__left">
         <div className="nav__logo">
-          <img src={images.logo} alt="" />
+          <img src={images.logo1} alt="" />
 
         </div>
         </div>
@@ -31,6 +31,7 @@ const Navbar = () => {
         <div className="nav__right">
           <div className="nav__right-login">
             <button>Login</button>
+            <span></span>
           </div>
 
           <div className="nav__right-btns">
