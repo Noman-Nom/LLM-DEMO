@@ -1,11 +1,34 @@
 import React from 'react'
 import './Navbar.scss'
 import { images } from '../../constants'
-
+import { FaPhone } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <div className='nav'>
+    <div className="conatiner">
+
+      <div className="upNav">
+        <div className="upNav__left">
+          <span>+92-304-5456318 <FaPhone/></span>
+          <span>m.noman@s4scorp.com < MdEmail /></span>
+          
+
+        </div>
+        <div className="upNav__right">
+          <select name="" id="">
+            <option value="">English</option>
+            <option value="">Arabic</option>
+            <option value="">urdu</option>
+            <option value="">French</option>
+            <option value="">Hindi</option>
+            <option value="">Russian</option>
+
+          </select>
+        </div>
+      </div>
+
+   <div className='nav'>
 
       <div className="nav__left">
         <div className="nav__logo">
@@ -16,19 +39,22 @@ const Navbar = () => {
 
         <div className="nav__mid">
           <ul>
-            <li><a href="#">Platform</a>
+            <li><a href="#">Courses</a>
             <div />
             </li>
-            <li><a href="#">Companey</a>
+            <li><a href="#">Course Bundle</a>
             <div />
             </li>
-            <li><a href="#">Modules</a>
+            <li><a href="#">Bootcamp</a>
             <div />
             </li>
-            <li><a href="#">Solutions</a>
+            <li><a href="#">Ebook</a>
             <div />
             </li>
-            <li><a href="#">Resources</a>
+            <li><a href="#">Find a tutor</a>
+            <div />
+            </li>
+            <li><a href="#">More</a>
             <div />
             </li>
             
@@ -55,6 +81,8 @@ const Navbar = () => {
 
 
     </div>
+    </div>
+ 
   )
 }
 
