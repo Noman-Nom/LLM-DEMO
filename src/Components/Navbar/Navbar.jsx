@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="nav__right">
           <div className="nav__right-login">
             <button className='login'>Login</button>
-            <span></span>
+            <span className='single-line'></span>
           </div>
 
           <div className="nav__right-btns">

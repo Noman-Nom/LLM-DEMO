@@ -4,14 +4,15 @@
  justify-content: space-between;
 //  border: 1px solid green;
  align-items: center;
- padding:  10px 30px;
+ padding:  2px 30px;
  background-color: var(--white-color);
- border: 1px solid rgba(228, 210, 210, 0.174);
+ border: 1px solid rgba(155, 133, 133, 0.174);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
  .nav__left{
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
+    // border: 1px solid blue;
     width: 150px;
     padding: 10px;
     margin-left: 20px;
@@ -19,6 +20,7 @@
         width: 120px;
         img{
             width: 100%;
+            cursor: pointer;
         }
     }
  }
@@ -28,7 +30,7 @@
         flex-direction: row;
         justify-content: flex-start;
         width: 650px;
-        border: 1px solid brown;
+        // border: 1px solid brown;
         margin-right: 50px;
 
         ul{
@@ -42,6 +44,12 @@
                 margin: 14px;
                 a{
                     text-decoration: none;
+                    color: var(--black-color);
+                    font-weight: 500;
+                    word-spacing: 5px;
+                    letter-spacing: 1px;
+                    font-size: 14px;
+                    cursor: pointer;
                 }
                 div{
                 
@@ -68,20 +76,37 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        // border: 1px solid yellow;
+        // border: 1px solid rgb(0, 0, 0);
+        padding: 20px 0px;
+        margin-right: 50px;
 
         .nav__right-login{
             display: flex;
             flex-direction: row;
-            gap: 20px ;
+            gap: 20px;
+            // border: 1px solid red;
+            width: 100px;
             button{
                 border: 0;
                 outline: 0;
                 padding: 10px 12px;
-                // background-color: aqua;
+                background-color: var(--white-color);
                 border-radius: 15px ;
-                font-size: 18px ;
+                font-size: 15px ;
                 line-height: 19px;
+                transition: all .3s ease-in-out;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #F77A18;
+                }
+
+            }
+            .single-line{
+                // color: var(--black-color);
+                background-color: var(--black-color);
+                height: 38px;
+                width: 1px;
             }
         }
 
@@ -96,19 +121,27 @@
                 outline: 0;
                 padding: 10px 12px;
                 // background-color: aqua;
+
                 border-radius: 15px ;
                 font-size: 18px ;
                 line-height: 19px;
                 font-size: 16px;
                 font-weight:500;
+                cursor: pointer;
             }
             .btn-req{
                 background-color: var(--white-color);
-                border: 1px solid black;
+                border: 0.3px solid rgb(58, 58, 58);
+                transition: all .3s ease-in-out;
+
+                &:hover{
+                    background-color: #F77A18;
+                }
             }
+          
             .btn-sign{
                 background-color: var(--myfvt-color);
-                border: 1px solid black;
+                // border: 1px solid black;
             }
         }
 
