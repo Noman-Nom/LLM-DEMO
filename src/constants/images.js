@@ -13,6 +13,9 @@ import wIcon1 from '../assets/wIcon1.png'
 import wIcon2 from '../assets/wIcon2.png'
 import wIcon3 from '../assets/wIcon3.png'
 
+import black1 from '../assets/1.png'
+import black2 from '../assets/2.png'
+import black3 from '../assets/3.png'
 
 
 export default{
@@ -27,6 +30,10 @@ export default{
     wIcon1,
     wIcon2,
     wIcon3,
+    black1,
+    black2,
+    black3,
+
     
 
     
