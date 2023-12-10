@@ -41,3 +41,28 @@ export const BlackDocs = [
         description: "Learn on your schedule"
     },
 ]
+
+export const ModulesSource = [
+
+    {
+        id:1,
+        name:"artificial Intelligence",
+        img: images.module1
+    },
+    {
+        id:2,
+        name:"Technical Skills",
+        img: images.module2
+    },
+    {
+        id:3,
+        name:"English Language",
+        img: images.module3
+    },
+
+    {
+        id:4,
+        name:"Soft Skills",
+        img: images.module4
+    }
+]
