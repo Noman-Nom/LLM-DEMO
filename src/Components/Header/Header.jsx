@@ -4,6 +4,7 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { RiSingleQuotesL } from "react-icons/ri";
 import { RiSingleQuotesR } from "react-icons/ri";
+import { images } from '../../constants'
 
 
 const Header = () => {
@@ -24,7 +25,9 @@ const Header = () => {
 
             </div>
             <div className="right">
-              right
+              <div className="right__img">
+                <img src={images.headerImg} alt="" />
+              </div>
             </div>
         </div>
     )
