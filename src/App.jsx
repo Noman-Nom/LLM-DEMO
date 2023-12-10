@@ -4,6 +4,7 @@ import './App.css'
 import VideoPage from './Pages/VideoPage/VideoPage'
 import WidgetsPage from './Pages/WidgetsPage/WidgetsPage'
 import BlackPage from './Pages/BlackPage/BlackPage'
+import ModulesPage from './Pages/ModulesPage/ModulesPage'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <VideoPage/>
         <WidgetsPage/>
         <BlackPage/>
+        <ModulesPage/>
         
     </div>
   )     

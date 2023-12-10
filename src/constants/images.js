@@ -17,6 +17,11 @@ import black1 from '../assets/1.png'
 import black2 from '../assets/2.png'
 import black3 from '../assets/3.png'
 
+import module1 from '../assets/m1.jpg'
+import module2 from '../assets/m2.jpg'
+import module3 from '../assets/m3.jpg'
+import module4 from '../assets/m4.jpg'
+
 
 export default{
     logo,
@@ -33,6 +38,11 @@ export default{
     black1,
     black2,
     black3,
+    module1,
+    module2,
+    module3,
+    module4,
+
 
     
 

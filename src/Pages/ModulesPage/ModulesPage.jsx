@@ -1,9 +1,12 @@
 import React from 'react'
 import './ModulesPage.scss'
+import Modules from '../../Components/Modules/Modules'
 
 const ModulesPage = () => {
   return (
-    <div>ModulesPage</div>
+    <div>
+        <Modules/>
+    </div>
   )
 }
 
