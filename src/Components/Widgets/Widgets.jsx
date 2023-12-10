@@ -19,7 +19,7 @@ const Widgets = () => {
                 </div>
                 <div className="students">
                     <h1>54<span>+</span></h1>
-                    <span>Experienced 👨‍🏫 <br /> Students</span>
+                    <span>Experienced 👨‍🏫 <br /> Instructors</span>
                 </div>
             </div>
 
