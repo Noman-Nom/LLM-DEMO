@@ -5,6 +5,7 @@ import VideoPage from './Pages/VideoPage/VideoPage'
 import WidgetsPage from './Pages/WidgetsPage/WidgetsPage'
 import BlackPage from './Pages/BlackPage/BlackPage'
 import ModulesPage from './Pages/ModulesPage/ModulesPage'
+import UpCommingCoursePage from './Pages/UpCommingCoursePage/UpCommingCoursePage'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <WidgetsPage/>
         <BlackPage/>
         <ModulesPage/>
+        <UpCommingCoursePage/>
         
     </div>
   )     
