@@ -22,6 +22,16 @@ import module2 from '../assets/m2.jpg'
 import module3 from '../assets/m3.jpg'
 import module4 from '../assets/m4.jpg'
 
+import upcommingCourse1 from '../assets/uc1.jpg'
+import upcommingCourse2 from '../assets/uc2.jpg'
+import upcommingCourse3 from '../assets/uc3.jpg'
+import upcommingCourse4 from '../assets/uc4.jpg'
+import upcommingCourse5 from '../assets/uc5.jpg'
+import upcommingCourse6 from '../assets/uc6.jpg'
+import upcommingCourse7 from '../assets/uc7.jpg'
+import upcommingCourse8 from '../assets/uc8.jpg'
+import upcommingCourse9 from '../assets/uc9.jpg'
+
 
 export default{
     logo,
@@ -42,6 +52,17 @@ export default{
     module2,
     module3,
     module4,
+    upcommingCourse1,
+    upcommingCourse2,
+    upcommingCourse3,
+    upcommingCourse4,
+    upcommingCourse5,
+    upcommingCourse6,
+    upcommingCourse7,
+    upcommingCourse8,
+    upcommingCourse9,
+
+
 
 
     

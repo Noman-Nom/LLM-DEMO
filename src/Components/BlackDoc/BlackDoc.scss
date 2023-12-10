@@ -9,6 +9,7 @@
     // border: 1px solid red;
     gap: 30px;
     background-color: #272625;
+    height: 320px;
 
 
 }
@@ -16,6 +17,11 @@
 .black__content{
     flex: 1.5;
     // border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
     
     // margin-left: 50px;
     width: 500px;
