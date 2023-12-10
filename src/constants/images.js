@@ -9,6 +9,10 @@ import video1_1 from '../assets/video/GIF-01_Mobile-OPT.mp4'
 
 import lineImg from '../assets/lineImg.png'
 
+import wIcon1 from '../assets/wIcon1.png'
+import wIcon2 from '../assets/wIcon2.png'
+import wIcon3 from '../assets/wIcon3.png'
+
 
 
 export default{
@@ -19,7 +23,12 @@ export default{
     video2,
     video3,
     video1_1,
-    lineImg
+    lineImg,
+    wIcon1,
+    wIcon2,
+    wIcon3,
+    
+
     
 
     

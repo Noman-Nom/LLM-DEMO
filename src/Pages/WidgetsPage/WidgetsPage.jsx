@@ -3,6 +3,7 @@ import './WidgetsPage.scss'
 import Widgets from '../../Components/Widgets/Widgets'
 
 
+
 const WidgetsPage = () => {
     
   return (
