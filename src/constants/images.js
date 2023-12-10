@@ -29,8 +29,10 @@ import upcommingCourse4 from '../assets/uc4.jpg'
 import upcommingCourse5 from '../assets/uc5.jpg'
 import upcommingCourse6 from '../assets/uc6.jpg'
 import upcommingCourse7 from '../assets/uc7.jpg'
-import upcommingCourse8 from '../assets/uc8.jpg'
-import upcommingCourse9 from '../assets/uc9.jpg'
+import upcommingCourse8 from '../assets/uc8.webp'
+import upcommingCourse9 from '../assets/uc9.webp'
+
+import nom from '../assets/nom.jpg'
 
 
 export default{
@@ -61,6 +63,7 @@ export default{
     upcommingCourse7,
     upcommingCourse8,
     upcommingCourse9,
+    nom,
 
 
 
