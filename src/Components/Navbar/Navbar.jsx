@@ -8,11 +8,12 @@ const Navbar = () => {
   return (
     <div className="conatiner">
 
+
       <div className="upNav">
         <div className="upNav__left">
-          <span>+92-304-5456318 <FaPhone/></span>
+          <span>+92-304-5456318 <FaPhone /></span>
           <span>m.noman@s4scorp.com < MdEmail /></span>
-          
+
 
         </div>
         <div className="upNav__right">
@@ -27,41 +28,40 @@ const Navbar = () => {
           </select>
         </div>
       </div>
+      <div className='nav'>
 
-   <div className='nav'>
+        <div className="nav__left">
+          <div className="nav__logo">
+            <img src={images.logo1} alt="" />
 
-      <div className="nav__left">
-        <div className="nav__logo">
-          <img src={images.logo1} alt="" />
-
-        </div>
+          </div>
         </div>
 
         <div className="nav__mid">
           <ul>
             <li><a href="#">Courses</a>
-            <div />
+              <div />
             </li>
             <li><a href="#">Course Bundle</a>
-            <div />
+              <div />
             </li>
             <li><a href="#">Bootcamp</a>
-            <div />
+              <div />
             </li>
             <li><a href="#">Ebook</a>
-            <div />
+              <div />
             </li>
             <li><a href="#">Find a tutor</a>
-            <div />
+              <div />
             </li>
             <li><a href="#">More</a>
-            <div />
+              <div />
             </li>
-            
+
 
           </ul>
 
-          
+
         </div>
 
         <div className="nav__right">
@@ -76,13 +76,13 @@ const Navbar = () => {
           </div>
 
         </div>
-     
 
 
 
+
+      </div>
     </div>
-    </div>
- 
+
   )
 }
 

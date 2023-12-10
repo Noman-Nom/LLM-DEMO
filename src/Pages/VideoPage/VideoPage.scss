@@ -41,6 +41,23 @@
             }
 
         }
+        p{
+            margin-top: 20px;
+            font-size: 14px;
+            line-height: 25px;
+            font-weight: 500;
+            word-spacing: 15px;
+            letter-spacing: 1px;
+            font-family: var(--gray-color);
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+
+
+            svg{
+                color: var(--new-color);
+                font-size: 20px;
+            }
+        }
     }
 
     .right {
