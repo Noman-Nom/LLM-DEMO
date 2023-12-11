@@ -149,3 +149,102 @@ export const ModulesSource = [
     }
 
  ]
+
+//  waiting for anwar bhai created api
+ export const TopCourseSource = [
+
+    {
+        id: 1,
+        img: images.topCourse1,
+        title: "Color Theory for Designers",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Anwar",
+        teacher__img:images.anwar
+        
+    },
+    {
+        id: 2,
+        img: images.topCourse2,
+        title: "Blog Masterclass: How To Build A Successful",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Noman",
+        teacher__img:images.nom
+
+    },
+    {
+        id: 3,
+        img: images.topCourse3,
+        title: "Customer Service English Essentials",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Noman",
+        teacher__img:images.anwar
+
+    },
+    {
+        id: 4,
+        img: images.topCourse4,
+        title: "The Complete Digital Marketing Guide",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Anwar",
+        teacher__img:images.nom
+
+    },
+    {
+        id: 5,
+        img: images.topCourse5,
+        title: "Ultimate Guide to Running",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Anwar",
+        teacher__img:images.anwar
+
+    },
+    {
+        id: 6,
+        img: images.topCourse6,
+        title: "Ultimate Guide to Running",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Noman",
+        teacher__img:images.nom
+
+    },
+       { id: 7,
+        img: images.topCourse7,
+        title: "Complete Figma Mega course: UI/UX Design",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Anwar",
+        teacher__img:images.anwar
+
+    },
+       { id: 8,
+        img: images.topCourse8,
+        title: "Complete HTML5 Course ",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Noman",
+        teacher__img:images.nom
+
+    },
+       { id: 9,
+        img: images.topCourse9,
+        title: "DevOps course for bigniners  ",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Anwar",
+        teacher__img:images.anwar
+
+    },
+       { id: 10,
+        img: images.topCourse9,
+        title: "DevOps course for bigniners  ",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Anwar",
+        teacher__img:images.anwar
+
+    },
+       { id: 11,
+        img: images.topCourse9,
+        title: "DevOps course for bigniners  ",
+        description: "Study any topic, anytime. explore thousands of courses for free!",
+        teacher_name:"Engr. Muhammad Anwar",
+        teacher__img:images.anwar
+
+    },
+ ]

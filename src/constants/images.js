@@ -36,6 +36,20 @@ import nom from '../assets/nom.jpg'
 import anwar from '../assets/anwar.png'
 
 
+
+import topCourse1 from '../assets/tc1.jpg'
+import topCourse2 from '../assets/tc2.jpg'
+import topCourse3 from '../assets/tc3.jpg'
+import topCourse4 from '../assets/tc4.jpg'
+import topCourse5 from '../assets/tc5.jpg'
+import topCourse6 from '../assets/tc6.jpg'
+import topCourse7 from '../assets/tc7.jpg'
+import topCourse8 from '../assets/tc8.jpg'
+import topCourse9 from '../assets/tc9.jpg'
+import topCourse10 from '../assets/tc10.jpg'
+import topCourse11 from '../assets/tc11.jpg'
+
+
 export default{
     logo,
     logo1,
@@ -65,7 +79,21 @@ export default{
     upcommingCourse8,
     upcommingCourse9,
     nom,
-    anwar
+    anwar,
+
+    topCourse1,
+    topCourse2,
+    topCourse3,
+    topCourse4,
+    topCourse5,
+    topCourse6,
+    topCourse7,
+    topCourse8,
+    topCourse9,
+    topCourse10,
+    topCourse11,
+
+
 
 
 
