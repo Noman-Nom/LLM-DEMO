@@ -156,7 +156,7 @@ export const ModulesSource = [
     {
         id: 1,
         img: images.topCourse1,
-        title: "Color Theory for Designers",
+        title: "WordPress Theme Development with Bootstrap",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Anwar",
         teacher__img:images.anwar
@@ -165,7 +165,7 @@ export const ModulesSource = [
     {
         id: 2,
         img: images.topCourse2,
-        title: "Blog Masterclass: How To Build A Successful",
+        title: "Adobe Illustrator CC - Essentials Training Course",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Noman",
         teacher__img:images.nom
@@ -174,7 +174,7 @@ export const ModulesSource = [
     {
         id: 3,
         img: images.topCourse3,
-        title: "Customer Service English Essentials",
+        title: "Complete Guitar Lessons System",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Noman",
         teacher__img:images.anwar
@@ -183,7 +183,7 @@ export const ModulesSource = [
     {
         id: 4,
         img: images.topCourse4,
-        title: "The Complete Digital Marketing Guide",
+        title: "Complete Blender Creator: Learn 3D Modelling",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Anwar",
         teacher__img:images.nom
@@ -192,7 +192,7 @@ export const ModulesSource = [
     {
         id: 5,
         img: images.topCourse5,
-        title: "Ultimate Guide to Running",
+        title: "Basic to advanced sewing course for beginners",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Anwar",
         teacher__img:images.anwar
@@ -201,7 +201,7 @@ export const ModulesSource = [
     {
         id: 6,
         img: images.topCourse6,
-        title: "Ultimate Guide to Running",
+        title: "After Effects CC 2019: Complete Course",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Noman",
         teacher__img:images.nom
@@ -209,7 +209,7 @@ export const ModulesSource = [
     },
        { id: 7,
         img: images.topCourse7,
-        title: "Complete Figma Mega course: UI/UX Design",
+        title: "How to Use Lighting Design to Transform your Home",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Anwar",
         teacher__img:images.anwar
@@ -217,7 +217,7 @@ export const ModulesSource = [
     },
        { id: 8,
         img: images.topCourse8,
-        title: "Complete HTML5 Course ",
+        title: "The Complete Graphic Design Theory ",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Noman",
         teacher__img:images.nom
@@ -232,7 +232,7 @@ export const ModulesSource = [
 
     },
        { id: 10,
-        img: images.topCourse9,
+        img: images.topCourse10,
         title: "DevOps course for bigniners  ",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Anwar",
@@ -240,7 +240,7 @@ export const ModulesSource = [
 
     },
        { id: 11,
-        img: images.topCourse9,
+        img: images.topCourse11,
         title: "DevOps course for bigniners  ",
         description: "Study any topic, anytime. explore thousands of courses for free!",
         teacher_name:"Engr. Muhammad Anwar",
