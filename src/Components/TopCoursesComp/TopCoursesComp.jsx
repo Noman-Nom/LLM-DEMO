@@ -10,7 +10,7 @@ const TopCoursesComp = () => {
     <div className='courses'>
     <div className="course__top">
         <h1><FaQuoteLeft/> Top courses <FaQuoteRight/> </h1>
-        <p> <RiSingleQuotesL/> hese are the most popular courses among  <br />listen courses learners worldwide <RiSingleQuotesR/></p>
+        <p> <RiSingleQuotesL/> These are the most popular courses among  <br />listen courses learners worldwide <RiSingleQuotesR/></p>
 
     </div>
 

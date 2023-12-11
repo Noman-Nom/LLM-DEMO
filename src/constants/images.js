@@ -49,6 +49,13 @@ import topCourse9 from '../assets/tc9.jpg'
 import topCourse10 from '../assets/tc10.jpg'
 import topCourse11 from '../assets/tc11.jpg'
 
+import why1 from '../assets/w1.png'
+import why2 from '../assets/w2.png'
+import why3 from '../assets/w3.png'
+import why4 from '../assets/w4.png'
+
+
+
 
 export default{
     logo,
@@ -92,6 +99,12 @@ export default{
     topCourse9,
     topCourse10,
     topCourse11,
+
+    why1,
+    why2,
+    why3,
+    why4,
+
 
 
 

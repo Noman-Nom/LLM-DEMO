@@ -248,3 +248,33 @@ export const ModulesSource = [
 
     },
  ]
+
+
+ export const whyLearnSource = [
+
+    {
+        id:1,
+        img:images.why1,
+        title:"Flexibility",
+        description: "Flexibility in scheduling and learning at your own pace."
+    },
+    {
+        id:2,
+        img:images.why2,
+        title:"Accessibility",
+        description: "Convenient access from anywhere with an internet connection."
+    },
+    {
+        id:3,
+        img:images.why3,
+        title:"Globalization",
+        description: "Opportunity for global networking and collaboration with peers worldwide."
+    },
+    {
+        id:4,
+        img:images.why4,
+        title:"Cost-effectiveness",
+        description: "Cost-effective compared to traditional in-person education."
+    },
+   
+ ]
