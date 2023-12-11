@@ -33,6 +33,7 @@ import upcommingCourse8 from '../assets/uc8.webp'
 import upcommingCourse9 from '../assets/uc9.webp'
 
 import nom from '../assets/nom.jpg'
+import anwar from '../assets/anwar.png'
 
 
 export default{
@@ -64,6 +65,7 @@ export default{
     upcommingCourse8,
     upcommingCourse9,
     nom,
+    anwar
 
 
 
