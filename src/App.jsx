@@ -6,6 +6,7 @@ import WidgetsPage from './Pages/WidgetsPage/WidgetsPage'
 import BlackPage from './Pages/BlackPage/BlackPage'
 import ModulesPage from './Pages/ModulesPage/ModulesPage'
 import UpCommingCoursePage from './Pages/UpCommingCoursePage/UpCommingCoursePage'
+import TopCourses from './Pages/TopCourses/TopCourses'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <BlackPage/>
         <ModulesPage/>
         <UpCommingCoursePage/>
+        <TopCourses/>
         
     </div>
   )     
